@@ -30,9 +30,9 @@ logo: "/assets/images/fd.logo.120x120.png"
 # Build settings
 remote_theme: pmarsceill/just-the-docs
 #theme: "just-the-docs"
-#plugins:
-#  - jekyll-feed
-#  - github-pages
+plugins:
+  - jekyll-feed
+  - github-pages
 
 # Search
 search_enabled: true
