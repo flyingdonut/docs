@@ -1,18 +1,14 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Flying Donut is a powerful, simple, effective, collaborative online Scrum and Kanban tool, 
+set out, from the start, to be a real-time agile collaboration tool, to allow transparency 
+and communication across distributed, remote or co-located teams. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Simplicity is the core idea underlying the design of Flying Donut, allowing teams to be agile and not just practice agile. It goes back to the basics of agile, with a real-time interface that makes collaboration so fluid, effortlessly.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[Website](https://www.flyingdonut.io/) \
+[Login](https://www.flyingdonut.io/auth/login) \
+[Signup](https://www.flyingdonut.io/auth/signup)
