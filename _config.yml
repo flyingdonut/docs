@@ -74,7 +74,7 @@ aux_links_new_tab: false
 heading_anchors: true
 
 # Google Analytics Tracking (optional)
-ga_tracking: 266186404
+ga_tracking: G-VRFXZKKDFM
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
   
 # Exclude from processing.
