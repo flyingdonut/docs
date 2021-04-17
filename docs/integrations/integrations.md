@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/integrations
 ---
 
-# UI Components
+# Integrations
 
 We have integrations to work with...
 {: .fs-6 .fw-300 }
