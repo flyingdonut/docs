@@ -14,7 +14,7 @@ nav_order: 5
 {: .no_toc .fs-9 }
 
 You already have signed to Flying Donut. Before you continue any further,
-it would be helpful if you took a look at the FAQ and the rest of the docs:
+it would be helpful if you took a look at the FAQ and the rest of the docs.
 {: .fs-6 .fw-300 }
 
 ## What is Flying Donut?
