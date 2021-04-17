@@ -9,6 +9,6 @@ and communication across distributed, remote or co-located teams.
 
 Simplicity is the core idea underlying the design of Flying Donut, allowing teams to be agile and not just practice agile. It goes back to the basics of agile, with a real-time interface that makes collaboration so fluid, effortlessly.
 
-[Website](https://www.flyingdonut.io/) \
-[Login](https://www.flyingdonut.io/auth/login) \
-[Signup](https://www.flyingdonut.io/auth/signup)
+- [Website](https://www.flyingdonut.io/)
+- [Login](https://www.flyingdonut.io/auth/login)
+- [Signup](https://www.flyingdonut.io/auth/signup)
