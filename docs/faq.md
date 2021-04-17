@@ -29,10 +29,14 @@ Everyone's view is immediately updated when any team member modifies an entry.
 Flying Donut enables you to get organized without even thinking about it. It takes no time to learn 
 Flying Donut, and every action is instantaneous.
 
+---
+
 ## Is Flying Donut only for software development projects?
 Although agile project management practices and scrum are typically used for software development, 
 we believe that any project can benefit from the use of an agile-style project management framework. 
 Simply think in terms of breaking down your project into smaller components, each with its own deadline and tasks.
+
+---
 
 ## Getting Started
 ### How do I get started?
@@ -63,6 +67,8 @@ People can join a project with any of the following user roles:
 #### Administrator
 > An administrator has full rights over the project. In addition to a Project Member's actions, they can also delete projects.
 
+---
+
 ## Integrations
 ### API Integration
 When enabling API integration for a project, you will be able to retrieve all available data of your project.
@@ -79,6 +85,8 @@ time left of a task to 5 hours by typing `#1556 -left 5h` in the commit comment.
 
 For more info please refer to the [GitHub Integration]({{ site.baseurl }}{% link docs/integrations/github.md %}) 
 instructions.
+
+---
 
 ## Agile & Scrum
 ### What is Agile?
@@ -106,6 +114,8 @@ When you assign an item to an sprint, you can provide a more detailed checklist,
 
 In simple terms: think of defining different tasks for your project, and assigning deadlines for completing a set of these tasks.
 
+---
+
 ## Support & Offering feedback
 ### Reporting Issues
 The first option is to use the [Issue tracker](https://github.com/flying-donut/flying-donut-operations/issues) 
@@ -126,6 +136,8 @@ To request new features or suggest improvements to the existing ones, you can us
 or the feature requests category in the 
 [Flying Donut User Group](https://groups.google.com/forum/?hl=en&fromgroups#!forum/flying-donut-user)
 or send us directly an email to [rfc@flyingdonut.io](mailto:rfc@flyingdonut.io).
+
+---
 
 ## Membership & Privacy Issues
 ### Memberships
