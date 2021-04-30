@@ -18,12 +18,16 @@ nav_order: 2
 Bitbucket is a hosting service for projects that use either the Mercurial or Git revision control systems. 
 Bitbucket offers free source code hosting for Git and Mercurial projects as well as project wikis and issue tracking
 
+---
+
 ## What do I get?
 With this integration, Bitbucket will post the commits, and the commit comments to a Flying Donut project. 
 You will be able to see which commit is part of which task (or card) with a quick link to the Bitbucket commit.
 
 You will also be able to apply the Flying Donut workflow via the commit messages. For example, you can update the 
 time left of a task to 5 hours from within the commit message by typing `#1556 -left 5h`.
+
+---
 
 ## Getting Started
 1. Navigate to your project and locate its settings. If you have admin permissions, you will see the integrations tab. 
@@ -36,6 +40,8 @@ time left of a task to 5 hours from within the commit message by typing `#1556 -
    manual configuration.
    
    ![Bitbucket - Details](/assets/tutorial/bitbucket/details.start.png)
+
+---
 
 ## Configuration
 1. **Generate a new Payload URL**. To configure Bitbucket you click on the Generate a new Payload URL button.
@@ -56,6 +62,8 @@ time left of a task to 5 hours from within the commit message by typing `#1556 -
    repository, your project will receive updates on the latest commits on your cards and tasks.
 
    ![Bitbucket - Add new webhook](/assets/tutorial/bitbucket/bitbucket.webhook.png)
+
+---
 
 ## Commit Message
 ### Card & Tasks
@@ -101,6 +109,8 @@ Or a more verbal one:
 #3224 is -done and I -spent 12h. 
 Started working on #3236. I already -spent 3h but it was underestimated. I think it has -left 15h
 ```
+
+---
 
 ## User Identification
 ### Make sure you have verified email
