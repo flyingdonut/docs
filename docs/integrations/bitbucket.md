@@ -15,7 +15,7 @@ nav_order: 2
 {: .no_toc .fs-9 }
 
 ## What is Bitbucket?
-Bitbucket is a hosting service for projects that use either the Mercurial or Git revision control systems. 
+[Bitbucket](https://bitbucket.org){:target="_blank"} is a hosting service for projects that use either the Mercurial or Git revision control systems. 
 Bitbucket offers free source code hosting for Git and Mercurial projects as well as project wikis and issue tracking
 
 ---
@@ -49,7 +49,9 @@ time left of a task to 5 hours from within the commit message by typing `#1556 -
    ![Bitbucket - Details](/assets/tutorial/bitbucket/details.start.png)
    
 1. **Use the Key**. Once you generate the key, you will have the configuration options available to configure the Bitbucket 
-   webhook. Go through the Manage webhooks on how to set up webhooks for more general details.
+   webhook. Go through the 
+   [manage webhooks](https://confluence.atlassian.com/display/BITBUCKET/Manage+Webhooks){:target="_blank"} 
+   page on how to set up webhooks for more general details.
 
    ![Bitbucket - Endpoint URL](/assets/tutorial/bitbucket/endpoint.url.png)
    
@@ -58,7 +60,7 @@ time left of a task to 5 hours from within the commit message by typing `#1556 -
    format `https://user:password@server:port/path/`. Therefore, the generated payload url contains a combination of 
    `username:secret` and a unique project token.
    
-   Select the repository push trigger and save. The integration is complete. Every time a user pushes commits in the 
+   Select the repository push trigger and save. The integration is completed. Every time a user pushes commits in the 
    repository, your project will receive updates on the latest commits on your cards and tasks.
 
    ![Bitbucket - Add new webhook](/assets/tutorial/bitbucket/bitbucket.webhook.png)
@@ -125,5 +127,5 @@ You have to have `your_email@example.com` added and verified in your Flying Donu
 For a detailed description, on how to configure you email in `Bitbucket`, please refer to the bitbucket instructions.
 
 ### Add your email to your account
-In case the git email is not added to your Flying Donut account then add it in the  *account settings* and verify it. 
+In case the git email is not added to your Flying Donut account then add it in the  **account settings** and verify it. 
 Then you will be able to apply the Flying Donut workflow via the commit messages.
