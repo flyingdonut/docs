@@ -29,7 +29,7 @@ logo: "/assets/images/logo.with-text.transparent.png"
 color_scheme: fd
 
 # Build settings
-remote_theme: svrooij/just-the-docs@relative-everything
+remote_theme: pmarsceill/just-the-docs
 #theme: "just-the-docs"
 plugins:
   - jekyll-feed
