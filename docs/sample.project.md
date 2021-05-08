@@ -25,70 +25,184 @@ so these will be our phases, or sprints.
 
 We are now ready to start entering all this information into Flying Donut:
 
-Log in and create a project, from the Projects dropdown:
+Log in to your account to create a project. Locate the `+` button in the upper right corner, in the projects,
+or dashboard page:
 
-Specify the project name, and the start and end dates. The project end date is optional:
+![Project Tutorial - Projects List - Create Project Button](/assets/moving/sc.2021-05-08.23-25-27.png)
 
-By default, the project will be created as a private project. You can change the visibility to public in the same dialog.
+Specify the project name, its visibility, and the project type. By default, the project will be created as a private project. 
+You can change the visibility to `public` to make it visible to everybody including search engines.
 
-Select the project from the Projects dropdown, to go to the project's page.
+The supported project types are:
+- **Kanban:** In `KANBAN` you don't have time boxes or sprints. The board is used to see and change the state of the cards,
+  in user defined columns.  
+- **Simple Scrum:** In plain old `SCRUM` the accompanying task board is used to see and change the state of the tasks
+  of the cards in the current sprint. The columns of the tasks are fixed to  `To Do`, `Doing` and `Done` states.
+  Cards with all their tasks `done` are considered as done.
+- **Scrumban:** In `SCRUMBAN` the accompanying kanban board is used on top of the scrum framework, supporting 
+  all functionality of scrum and kanban. Nowadays, it is considered as the modern way of doing scrum.
 
-At this point there is very limited information in the project page:
+![Project Tutorial - Create Project Modal](/assets/moving/sc.2021-05-08.13-46-15.png)
+
+Select the project from the projects list, to go to the project's page.
+
+![Project Tutorial - Projects List](/assets/moving/sc.2021-05-08.23-25-14.png)
+
+At this point there is very limited information in the project page, but you see that you more options at left-hand
+side the menu. This menu is enabled when you are in a project context: 
+
+![Project Tutorial - Project Overview](/assets/moving/sc.2021-05-08.13-48-12.png)
 
 ### Creating the Project Sprints (Phases)
 
-Create an sprint for each of the project's phases, by selecting Create Sprint from the Sprints dropdown. 
+Create a sprint for each of the project's phases. Locate the `+` button in the upper right corner, in the sprints page.
+Add a name, a description (with your sprint goal), and tentative start and end dates.
+
+![Project Tutorial - Create Sprint](/assets/moving/sc.2021-05-08.18-19-04.png)
+
 For this example, we create three sprints:
 
 - Before the move
 - Move day
 - After the move
 
-We used May 19th as the move date, so the sprints before and after the move are marked accordingly. 
+![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-22-56.png)
+
+We used May 22nd to 29th as the move dates, so the sprints before and after the move are marked accordingly. 
 Notice that when you are setting up your own project, you do not have to specify the dates if you are not 
 sure of them. Dates are used to order the sprints in the sprints page. They are also used in the project 
 summary pages and charts, to provide information regarding whether the project is on track or behind schedule.
 
-If you select Sprint List from the Sprints dropdown, you will see that, depending on the start and end dates, 
-the sprints have a meter icon showing the sprints status: This sprint has not started yet.
-1. This sprint is in progress.
-1. This sprint has ended.
+In the Sprint List, you will see among other things, depending on the start and end dates, 
+and if the sprint has started, is completed or not: 
+
+1. The sprint has started and have a number of days left.
+1. The sprint is overdue.   
+1. The sprint is done.
+1. The sprint will start in number of days.
 
 ### Defining the Card Categories, or Backlog Buckets
 
-Select Backlog from the main menu. When a project is created, a Default backlog bucket is created:
+Select Backlog from the left-side menu. When a project is created, a Default backlog bucket is created:
 
-Click on the Default bucket name to change it.
+Select the Default bucket and click on the `edit` button located on the top right-hand side.
 
-Rename it to Old House:
+![Project Tutorial - Backlog - Default bucket](/assets/moving/sc.2021-05-08.13-55-09.png)
 
-Select New Bucket from the backlog bucket navigation pane on the left-hand side. An input text field appears. 
-Specify a name for the new bucket, New House:
+Rename it to Old House.
+
+![Project Tutorial - Backlog - Rename Default bucket](/assets/moving/sc.2021-05-08.13-55-26.png)
+
+Locate the `+` button in the backlog bucket navigation list to add a new bucket. 
+
+![Project Tutorial - Backlog - Create bucket button](/assets/moving/sc.2021-05-08.13-55-43.png)
+
+An input text field appears. Specify a name for the new bucket, New House:
+
+![Project Tutorial - Backlog - Create bucket](/assets/moving/sc.2021-05-08.13-55-52.png)
 
 Similarly create the Kid's Stuff bucket:
 
-### Adding Work Items to Backlog
+![Project Tutorial - Backlog - buckets](/assets/moving/sc.2021-05-08.13-56-45.png)
 
-Each backlog bucket has an input section, where you can specify a work item. Simply type the item name 
-in the input text box, and hit Enter.
+### Adding Cards to Backlog
+
+Each backlog bucket has an `+` button at the toolbar. 
+
+![Project Tutorial - Backlog - Add card](/assets/moving/sc.2021-05-08.18-05-03.png)
+
+When you click on the button, an input field appears. Simply type the name of the card in the input text box, 
+and hit `Enter` or click on the `Add Card` button.
+
+![Project Tutorial - Backlog - Add card input](/assets/moving/sc.2021-05-08.18-05-14.png)
 
 You can add as many items as you can think of. Remember that these are higher level work items, that we 
-can break down into smaller tasks later. You can also add more details for each item, in the item's 
-details page.
+can break down into smaller tasks later.
 
-Do not worry about thinking of everything up front. You can come back and add more items to your list at 
+![Project Tutorial - Backlog - Add card input](/assets/moving/sc.2021-05-08.18-06-01.png)
+
+Do not worry about thinking of everything up front. You can come back and add more items to your list at
 any point.
 
+![Project Tutorial - Backlog - Cards](/assets/moving/sc.2021-05-08.18-16-36.png)
+
+
+Add more details for each item, in the item's details. By clicking on the name of the card, the card details
+modal will appear, where you can add description, attachments, tasks, comments, and topics.
+
+![Project Tutorial - Backlog - Add card input](/assets/moving/sc.2021-05-08.18-07-04.png)
+
+### Moving the Cards around in the Backlog
+
+The cards can be moved around in backlog via drag 'n drop. The order from top to bottom is used to order the priority
+of each card. There are times that you need to move a card from one bucket to another one, though. 
+
+Locate the `Move Cards to Buckets` button and click on it. 
+
+![Project Tutorial - Backlog - Move Cards to Bucket button](/assets/moving/sc.2021-05-08.18-15-24.png)
+
+Once you click on the button, you will see a slightly different view that makes it easier to move the cards to another
+backlog bucket. 
+
+![Project Tutorial - Backlog - Move Cards to Bucket](/assets/moving/sc.2021-05-08.18-15-27.png)
+
+Just drag 'n drop the card you want to the bucket you want. We will move the cards to the proper bucket after a some 
+extra thoughts in our project.
+
+![Project Tutorial - Backlog - Move Card to Bucket](/assets/moving/sc.2021-05-08.18-15-46.png)
+
+![Project Tutorial - Backlog - Move Card 2 to Bucket](/assets/moving/sc.2021-05-08.18-16-27.png)
+
+Click on the `Move Cards to Buckets` button again to return to normal view to continue working as usual.
+
+![Project Tutorial - Backlog - Normal view](/assets/moving/sc.2021-05-08.18-16-36.png)
+
 ### Adding Cards to the Project Sprints (Phases)
-Now that we have a list of work items, we can assign them to the project phases: what needs to be done 
+Now that we have a list of cards (work items), we can add them to our sprints. What needs to be done 
 before the move? What should we remember to do during the moving day? What can wait until after the move?
 
-From the Sprints dropdown, select Sprints List. This will show you the sprint page:
+Click on the `Plan` button in the "Before the Move" sprint, to see this sprint's planning view.
 
-Click on the View Planning button of the Before the move sprint, to see this sprint's planning page:
+![Project Tutorial - Sprints - Plan button](/assets/moving/sc.2021-05-08.18-23-11.png)
 
-In the sprint planning page, you see two rows of action buttons, on the top right. The first row shows 
-the sprint stages, and the second one shows different action buttons related to this sprint.
+In the sprint planning view, you see two distinct areas:
+- Backlog
+- Sprint Board
+
+Drag 'n drop the cards from the selected backlog bucket into the sprint. 
+  
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-23.png)
+
+Once you drop the card, the view will be updated with the counters.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-29.png)
+
+Of course the burndown chart will also be updated after a few seconds, if you added estimated tasks to the cards.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-34.png)
+
+Let's add the rest of the cards we need in this sprint.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-24-16.png)
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-25-21.png)
+
+To add cards from a different backlog bucket we need to click on the `Select Bucket` button, to pick the bucket we want.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-25-53.png)
+
+Let's add the cards we need in this sprint.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-26-05.png)
+
+Let's see if we need to bring something else form the "Kids Stuff" bucket.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-03.png)
+
+Yep, we need to bring one more to the sprint.
+
+![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-18.png)
+
 
 ### Sprint Stages
 
