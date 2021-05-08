@@ -63,7 +63,7 @@ Add a name, a description (with your sprint goal), and tentative start and end d
 For this example, we create three sprints:
 
 - Before the move
-- Move day
+- Move days
 - After the move
 
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-22-56.png)
