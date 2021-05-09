@@ -53,7 +53,7 @@ side the menu. This menu is enabled when you are in a project context:
 
 ![Project Tutorial - Project Overview](/assets/moving/sc.2021-05-08.13-48-12.png)
 
-### Creating the Project Sprints (Phases)
+## Creating the Project Sprints (Phases)
 
 Create a sprint for each of the project's phases. Locate the `+` button in the upper right corner, in the sprints page.
 Add a name, a description (with your sprint goal), and tentative start and end dates.
@@ -81,7 +81,7 @@ and if the sprint has started, is completed or not:
 1. The sprint is done.
 1. The sprint will start in number of days.
 
-### Defining the Card Categories, or Backlog Buckets
+## Defining the Card Categories, or Backlog Buckets
 
 Select Backlog from the left-side menu. When a project is created, a Default backlog bucket is created:
 
@@ -105,7 +105,7 @@ Similarly create the Kid's Stuff bucket:
 
 ![Project Tutorial - Backlog - buckets](/assets/moving/sc.2021-05-08.13-56-45.png)
 
-### Adding Cards to Backlog
+## Adding Cards to Backlog
 
 Each backlog bucket has an `+` button at the toolbar. 
 
@@ -132,7 +132,7 @@ modal will appear, where you can add description, attachments, tasks, comments, 
 
 ![Project Tutorial - Backlog - Add card input](/assets/moving/sc.2021-05-08.18-07-04.png)
 
-### Moving the Cards around in the Backlog
+## Moving the Cards around in the Backlog
 
 The cards can be moved around in backlog via drag 'n drop. The order from top to bottom is used to order the priority
 of each card. There are times that you need to move a card from one bucket to another one, though. 
@@ -157,7 +157,17 @@ Click on the `Move Cards to Buckets` button again to return to normal view to co
 
 ![Project Tutorial - Backlog - Normal view](/assets/moving/sc.2021-05-08.18-16-36.png)
 
-### Adding Cards to the Project Sprints (Phases)
+## Sprints (Scrum based projects)
+
+As sprint has the following states:
+1. **Pending**: A sprint is not started, thus is in pending state, even if the start date is past.
+1. **Started**: A sprint has been started, thus is active. Active sprints show up in the dashboard.
+1. **Completed**: A sprint has been completed, thus is done.
+
+![Project Tutorial - Sprints List](/assets/moving/sc.2021-05-08.18-32-41.png)
+
+### Adding Cards to the Sprint
+
 Now that we have a list of cards (work items), we can add them to our sprints. What needs to be done 
 before the move? What should we remember to do during the moving day? What can wait until after the move?
 
@@ -199,20 +209,42 @@ Let's see if we need to bring something else form the "Kids Stuff" bucket.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-03.png)
 
-Yep, we need to bring one more to the sprint.
+Yep, lets bring the last one to the sprint.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-18.png)
 
 
-### Sprint Stages
+### Starting a Sprint
 
-The first row shows the stages of an sprint, with Planning selected. The other stages are:
-- Task Board
-- Review
+When you are done adding the cards to the sprint, you `Start` it (when the time comes). Locate the `Start` button 
+at the toolbar of the sprint.
 
-During the sprint planning stage you can assign work items to the sprint. When you are done assigning 
-work items to the sprint, you Start it, and the sprint enters the Task Board phase. In the Task Board, 
-you see the list of items and their subtasks. Each subtask is either in the To Do, Doing, or Done state.
+![Project Tutorial - Sprints List - start button](/assets/moving/sc.2021-05-08.18-19-44.png)
+
+You will be presented with the start sprint modal. You need to provide the start and end dates to start the sprint.
+Then just click on the `Start Sprint` button, to start it.
+
+![Project Tutorial - Start sprint modal](/assets/moving/sc.2021-05-08.18-19-55.png)
+
+Once you start the sprint you will se an indication with the `Days Left` and the sprint will be visible in the dashboard.
+
+![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-21-41.png)
+
+### Completing a Sprint
+When the sprint has been completed, you need to `Complete` it (when the time comes). Locate the 'Complete' button
+at the toolbar of the sprint. You will be presented with the start sprint modal. Uncompleted cards will be moved
+to a sprint (pending or active) or a backlog bucket. Once selected, just click on the `Comlete Sprint` button. 
+
+![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-32.png)
+
+![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-49.png)
+
+--- 
+# ** Not Valid? **
+
+In the **Task Board**, you see the list of the tasks of the cards. Each task is either in the `To Do`, `Doing`,
+or `Done` state.
+
 
 In general, you use the Task Board to mark things Doing, and, later, Done, so you can track your progress.
 The Review phase is tailored more towards larger teams working together, and may not apply on smaller 
