@@ -53,7 +53,7 @@ side the menu. This menu is enabled when you are in a project context:
 
 ![Project Tutorial - Project Overview](/assets/moving/sc.2021-05-08.13-48-12.png)
 
-## Creating the Project Sprints (Phases)
+## Creating the Project Sprints
 
 Create a sprint for each of the project's phases. Locate the `+` button in the upper right corner, in the sprints page.
 Add a name, a description (with your sprint goal), and tentative start and end dates.
@@ -187,7 +187,8 @@ Once you drop the card, the view will be updated with the counters.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-29.png)
 
-Of course the burndown chart will also be updated after a few seconds, if you added estimated tasks to the cards.
+Of course the burndown chart will also be updated after a few seconds, when you add cards with estimated tasks. 
+When you add tasks and estimate them in the cards, the burndown chart will also be updated in real-time.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-34.png)
 
@@ -197,7 +198,9 @@ Let's add the rest of the cards we need in this sprint.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-25-21.png)
 
-To add cards from a different backlog bucket we need to click on the `Select Bucket` button, to pick the bucket we want.
+We have cards on multiple backlog buckets, therefore to add cards from a different backlog bucket we need to click 
+on the `Select Bucket` button, to pick the bucket we want. Let's select the "New House" bucket to pick the cards that
+we will work on in this sprint. 
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-25-53.png)
 
@@ -209,10 +212,9 @@ Let's see if we need to bring something else form the "Kids Stuff" bucket.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-03.png)
 
-Yep, lets bring the last one to the sprint.
+Yep, lets bring the last card to the sprint.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-18.png)
-
 
 ### Starting a Sprint
 
@@ -238,6 +240,76 @@ to a sprint (pending or active) or a backlog bucket. Once selected, just click o
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-32.png)
 
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-49.png)
+
+### Edit Card details
+You can edit the card details by clicking on the `name` of the card, or via the card menu that is located in the top 
+right corner of each card. Once you click on the `name`, a modal with the card details will be visible. Start editing
+the card with the details and tasks you want.
+
+![Project Tutorial - Sprints - Planning - Card Details](/assets/moving/sc.2021-05-08.18-30-58.png)
+
+## Sprint Board
+To navigate to the sprint board click on the `name` of the sprint, or locate the `Board` button located at the toolbar
+of each sprint and click it.
+
+![Project Tutorial - Sprints - Name Hover](/assets/moving/sc.2021-05-08.18-32-41.png)
+
+## Sprint Board (SCRUM)
+
+![Project Tutorial - SCRUM Board - Add Card](/assets/moving/sc.2021-05-08.18-32-56.png)
+
+![Project Tutorial - SCRUM Board - Add Card typing](/assets/moving/sc.2021-05-08.18-33-06.png)
+
+![Project Tutorial - SCRUM Board - Card Created](/assets/moving/sc.2021-05-08.18-33-16.png)
+
+![Project Tutorial - SCRUM Board - Card Reorder](/assets/moving/sc.2021-05-08.18-33-53.png)
+
+![Project Tutorial - SCRUM Board - Card Reordered](/assets/moving/sc.2021-05-08.18-34-04.png)
+
+![Project Tutorial - SCRUM Board - Expand Hover](/assets/moving/sc.2021-05-08.18-34-13.png)
+
+![Project Tutorial - SCRUM Board - Expanded](/assets/moving/sc.2021-05-08.18-34-08.png)
+
+![Project Tutorial - SCRUM Board - Move Task](/assets/moving/sc.2021-05-08.18-34-58.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Select Labels](/assets/moving/sc.2021-05-08.18-35-20.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Show Labels](/assets/moving/sc.2021-05-08.18-35-30.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Show Labels - Select](/assets/moving/sc.2021-05-08.18-35-36.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Label Added](/assets/moving/sc.2021-05-08.18-35-44.png)
+
+![Project Tutorial - SCRUM Board - Collapsed](/assets/moving/sc.2021-05-08.18-35-56.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Next](/assets/moving/sc.2021-05-08.18-37-02.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Next - Edit description](/assets/moving/sc.2021-05-08.18-37-15.png)
+
+![Project Tutorial - SCRUM Board - Expanded - Next - Saved description](/assets/moving/sc.2021-05-08.18-37-26.png)
+
+### Add Tasks (Expanded Card)
+
+![Project Tutorial - SCRUM Board - Tasks - Hover](/assets/moving/sc.2021-05-08.18-39-54.png)
+
+![Project Tutorial - SCRUM Board - Tasks - Add](/assets/moving/sc.2021-05-08.18-40-09.png)
+
+Reorder the tasks based on priority order. We will start working with tasks at the top, and since we want to talk to 
+Suzan first, we will move it at the top.
+
+![Project Tutorial - SCRUM Board - Tasks - Reorder](/assets/moving/sc.2021-05-08.18-40-24.png)
+
+### View the Burndown Chart
+Let's check the burndown chart now that we added a few tasks to see how it looks like now. Locate the `Burndown Chart`
+button at the board toolbar located in the top right-hand side of the board, and click on it.
+
+![Project Tutorial - SCRUM Board - Tasks - Reorder](/assets/moving/sc.2021-05-08.18-40-48.png)
+
+The burndown chart view is visible now.
+
+![Project Tutorial - SCRUM Board - Tasks - Reorder](/assets/moving/sc.2021-05-08.18-40-52.png)
+
+## Sprint Board (SCRUMBAN)
 
 --- 
 # ** Not Valid? **
