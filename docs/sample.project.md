@@ -44,42 +44,14 @@ The supported project types are:
 
 ![Project Tutorial - Create Project Modal](/assets/moving/sc.2021-05-08.13-46-15.png)
 
-Select the project from the projects list, to go to the project's page.
+Locate the project from the projects list, and click on the project name to navigate to the project's page. 
 
 ![Project Tutorial - Projects List](/assets/moving/sc.2021-05-08.23-25-14.png)
 
-At this point there is very limited information in the project page, but you see that you more options at left-hand
-side the menu. This menu is enabled when you are in a project context: 
+At this point there is very limited information in the project page, but you see that you have more options in left-hand
+side the menu. This part of the menu is enabled when you are in a project context:
 
 ![Project Tutorial - Project Overview](/assets/moving/sc.2021-05-08.13-48-12.png)
-
-## Creating the Project Sprints
-
-Create a sprint for each of the project's phases. Locate the `+` button in the upper right corner, in the sprints page.
-Add a name, a description (with your sprint goal), and tentative start and end dates.
-
-![Project Tutorial - Create Sprint](/assets/moving/sc.2021-05-08.18-19-04.png)
-
-For this example, we create three sprints:
-
-- Before the move
-- Move days
-- After the move
-
-![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-22-56.png)
-
-We used May 22nd to 29th as the move dates, so the sprints before and after the move are marked accordingly. 
-Notice that when you are setting up your own project, you do not have to specify the dates if you are not 
-sure of them. Dates are used to order the sprints in the sprints page. They are also used in the project 
-summary pages and charts, to provide information regarding whether the project is on track or behind schedule.
-
-In the Sprint List, you will see among other things, depending on the start and end dates, 
-and if the sprint has started, is completed or not: 
-
-1. The sprint has started and have a number of days left.
-1. The sprint is overdue.   
-1. The sprint is done.
-1. The sprint will start in number of days.
 
 ## Defining the Card Categories, or Backlog Buckets
 
@@ -126,6 +98,10 @@ any point.
 
 ![Project Tutorial - Backlog - Cards](/assets/moving/sc.2021-05-08.18-16-36.png)
 
+### Edit Card details
+You can edit the card details by clicking on the `name` of the card, or via the card menu that is located in the top
+right corner of each card. Once you click on the `name`, a modal with the card details will be visible. Start editing
+the card with the details and tasks you want.
 
 Add more details for each item, in the item's details. By clicking on the name of the card, the card details
 modal will appear, where you can add description, attachments, tasks, comments, and topics.
@@ -158,13 +134,45 @@ Click on the `Move Cards to Buckets` button again to return to normal view to co
 ![Project Tutorial - Backlog - Normal view](/assets/moving/sc.2021-05-08.18-16-36.png)
 
 ## Sprints (Scrum based projects)
+As described in the [Scrum Guide](https://www.scrumguides.org){:target="_blank"}, 
+`Sprints` are the heartbeat of Scrum, where ideas are turned into value. Sprints are time-boxed iterations, 
+no longer than one month and most commonly two weeks.  
 
-As sprint has the following states:
+A sprint in Flying Donut has the following states:
 1. **Pending**: A sprint is not started, thus is in pending state, even if the start date is past.
 1. **Started**: A sprint has been started, thus is active. Active sprints show up in the dashboard.
 1. **Completed**: A sprint has been completed, thus is done.
 
 ![Project Tutorial - Sprints List](/assets/moving/sc.2021-05-08.18-32-41.png)
+
+### Creating a Sprint
+In our case, we will create a sprint for each of the project's phases:
+- Before the move
+- Move days
+- After the move
+
+Locate the `+` button in the upper right corner,
+in the sprints page. Add a name, a description (with your sprint goal), and start and end dates. Don't worry if you 
+don't know the dates yet. You can change them later on.
+
+![Project Tutorial - Create Sprint](/assets/moving/sc.2021-05-08.18-19-04.png)
+
+Once we are done creating the sprints, we see a timeline with our sprints, according to the start and end dates.
+
+![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-22-56.png)
+
+We used May 22nd to 29th as the move dates, so the sprints before and after the move are marked accordingly.
+Notice that when you are setting up your own project, you do not have to specify the dates if you are not
+sure of them. Dates are used to order the sprints in the sprints page. They are also used in the project
+summary pages and charts, to provide information whether the project is on track or behind schedule.
+
+In the Sprint List, you will see among other things, depending on the start and end dates,
+and if the sprint has started, is completed or not:
+
+1. The sprint has started and have a number of days left.
+1. The sprint is overdue.
+1. The sprint is done.
+1. The sprint will start in number of days.
 
 ### Adding Cards to the Sprint
 
@@ -212,7 +220,7 @@ Let's see if we need to bring something else form the "Kids Stuff" bucket.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-03.png)
 
-Yep, lets bring the last card to the sprint.
+Let's bring the last card to the sprint.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-18.png)
 
@@ -233,18 +241,13 @@ Once you start the sprint you will se an indication with the `Days Left` and the
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-21-41.png)
 
 ### Completing a Sprint
-When the sprint has been completed, you need to `Complete` it (when the time comes). Locate the 'Complete' button
+When the sprint has been completed, you need to `Complete` it (when the time comes). Locate the `Complete` button
 at the toolbar of the sprint. You will be presented with the start sprint modal. Uncompleted cards will be moved
 to a sprint (pending or active) or a backlog bucket. Once selected, just click on the `Comlete Sprint` button. 
 
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-32.png)
 
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-49.png)
-
-### Edit Card details
-You can edit the card details by clicking on the `name` of the card, or via the card menu that is located in the top 
-right corner of each card. Once you click on the `name`, a modal with the card details will be visible. Start editing
-the card with the details and tasks you want.
 
 ![Project Tutorial - Sprints - Planning - Card Details](/assets/moving/sc.2021-05-08.18-30-58.png)
 
@@ -254,7 +257,7 @@ of each sprint and click it.
 
 ![Project Tutorial - Sprints - Name Hover](/assets/moving/sc.2021-05-08.18-32-41.png)
 
-## Sprint Board (SCRUM)
+## SCRUM Sprint Board
 
 ![Project Tutorial - SCRUM Board - Add Card](/assets/moving/sc.2021-05-08.18-32-56.png)
 
@@ -309,7 +312,79 @@ The burndown chart view is visible now.
 
 ![Project Tutorial - SCRUM Board - Tasks - Reorder](/assets/moving/sc.2021-05-08.18-40-52.png)
 
-## Sprint Board (SCRUMBAN)
+## SCRUMBAN Sprint Board
+
+Let say that we changed our mind, and we want to use `SCUMBAN` instead. We need to chang the project type. 
+
+### Change Project Board Type
+Locate the project `Settings` button at the left-side menu and click on it. Then select the `Admin` tab.
+The `Admin` tab is only available to project administrators or the project owner. 
+
+Locate the change board type option and click on the `Change` button.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-01-35.png)
+
+We see what is selected, and the available options we can choose of.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-01-41.png)
+
+Let's select the `SCRUMBAN` option to change the project board type.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-01-47.png)
+
+Once the project type is changed, we have the option to edit and modify the columns of our board. 
+Locate the `Columns` section, just bellow the `Board Type`, and click on the `Edit` button.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-03.png)
+
+The edit board columns modal will be visible to do all necessary changes. As we see, we have by default 4 columns:
+- To Do
+- Doing
+- Testing
+- Done
+
+Each column has the following properties:
+- **Name**: The name of the column.
+- **WIP**: Limiting Work In Progress in a kanban board encourages higher quality and more excellent 
+  performance. The act of restricting WIP helps you optimize work capacity by allowing you to pull new work only 
+  if capacity is available. 
+- **Type**: The type of the column. A column can be a `to do`, `doing`, or `done` column. Cards in a column will get
+  the status of the column, that is taken into account in the available counters and reports. 
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-09.png)
+
+In our project we don't have a `Testing` column so let's delete it.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-20.png)
+
+Until we hit the `Save Changes` button, the changes will not be applied to the project. Let's save the changes to apply
+them to our board.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-46.png)
+
+### Scrumban Board
+
+From the sprint list navigate to the sprint board. Now the board has the columns as modified.
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-06.png)
+
+We start working on the "Moving Budget" card, so let's add the card to the doing column. Now we have 2 cards 
+in the `Doing` column.
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-06.png)
+
+Let's filter the board to show only the cards that I'm working on.
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-51.png)
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-56.png)
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-04-08.png)
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-04-54.png)
+
+![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-05-01.png)
+
 
 --- 
 # ** Not Valid? **
