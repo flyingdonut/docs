@@ -440,15 +440,22 @@ in the `Doing` column.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-06.png)
 
-Let's filter the board to show only the cards that I'm working on.
+Let's filter the board to show only the cards that I work on. Click on the `Show only my cards` toggle button.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-51.png)
 
+Only the cards assigned directly to me, or the cards having tasks assigned to me are visible. The rest of the cards
+are hidden. Click on the `Show only my cards` toggle button again to disable the filtering.
+
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-56.png)
 
-![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-04-08.png)
+### Assign Cards to users
+From the dropdown menu of the card locate and click on the `Assign Me` action, to assign the card to yourself.
+Alternatively you may select the `Users` action to assign other project members.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-04-54.png)
+
+When assigned, the user avatar is added to the card.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-05-01.png)
 
