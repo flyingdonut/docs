@@ -255,55 +255,111 @@ to a sprint (pending or active) or a backlog bucket. Once selected, just click o
 
 
 ## Sprints and Boards
-To navigate to the sprint board click on the `name` of the sprint, or locate the `Board` button located at the toolbar
+To navigate to the sprint board click on the `name` of the sprint, or find the `Board` button located at the toolbar
 of each sprint and click it.
 
 ![Project Tutorial - Sprints - Name Hover](/assets/moving/sc.2021-05-08.18-32-41.png)
 
 ## SCRUM Sprint Board
+There are cases where you don't want or need a modern kanban board to run sprints in. In simple traditional scrum,
+you prioritize your cards vertically, and you only move the tasks of a card in the task board. When all tasks are done, 
+then the card is considered done.
+
+### Add Card
+To add a card find the `+` button located at the toolbar, and click on it. 
 
 ![Project Tutorial - SCRUM Board - Add Card](/assets/moving/sc.2021-05-08.18-32-56.png)
 
+When you click on the button, an input field appears. Simply type the name of the card in the input text box, 
+and hit `Enter` or click on the `Add Card` button.  
+
 ![Project Tutorial - SCRUM Board - Add Card typing](/assets/moving/sc.2021-05-08.18-33-06.png)
+
+You can add as many items as you can think of. Remember that these are higher level work items, that we can break 
+down into smaller tasks later.
 
 ![Project Tutorial - SCRUM Board - Card Created](/assets/moving/sc.2021-05-08.18-33-16.png)
 
+### Prioritize
+
+The cards can be moved around in board via drag ‘n drop. The order from top to bottom is used to order the priority 
+of each card. 
+
+Click on the card and start dragging until you find the position you want.
+
 ![Project Tutorial - SCRUM Board - Card Reorder](/assets/moving/sc.2021-05-08.18-33-53.png)
+
+Then release the drag and leave it at the desired position.
 
 ![Project Tutorial - SCRUM Board - Card Reordered](/assets/moving/sc.2021-05-08.18-34-04.png)
 
+### Task Board - Expanded Card
+In the simple SCRUM board we can expand the cards to reveal some details of the card. Among the 
+details is the task board.
+
+Click on the `Expand Card` icon located in the left corner of the card.
+
 ![Project Tutorial - SCRUM Board - Expand Hover](/assets/moving/sc.2021-05-08.18-34-13.png)
+
+The task board, and the description is visible in the board.
 
 ![Project Tutorial - SCRUM Board - Expanded](/assets/moving/sc.2021-05-08.18-34-08.png)
 
+The only columns available for the tasks are `To Do`, `Doing`, `Done`. You will be able to drag the tasks and drop
+them in the proper column. Once all tasks are done the card will be considered as done.
+
 ![Project Tutorial - SCRUM Board - Move Task](/assets/moving/sc.2021-05-08.18-34-58.png)
 
-![Project Tutorial - SCRUM Board - Expanded - Select Labels](/assets/moving/sc.2021-05-08.18-35-20.png)
-
-![Project Tutorial - SCRUM Board - Expanded - Show Labels](/assets/moving/sc.2021-05-08.18-35-30.png)
-
-![Project Tutorial - SCRUM Board - Expanded - Show Labels - Select](/assets/moving/sc.2021-05-08.18-35-36.png)
-
-![Project Tutorial - SCRUM Board - Expanded - Label Added](/assets/moving/sc.2021-05-08.18-35-44.png)
-
-![Project Tutorial - SCRUM Board - Collapsed](/assets/moving/sc.2021-05-08.18-35-56.png)
-
-![Project Tutorial - SCRUM Board - Expanded - Next](/assets/moving/sc.2021-05-08.18-37-02.png)
-
-![Project Tutorial - SCRUM Board - Expanded - Next - Edit description](/assets/moving/sc.2021-05-08.18-37-15.png)
-
-![Project Tutorial - SCRUM Board - Expanded - Next - Saved description](/assets/moving/sc.2021-05-08.18-37-26.png)
-
-### Add Tasks (Expanded Card)
+### Add Tasks - Expanded Card
+To add a task find the `+` button located at the top of the column in the task board, and click on it.
 
 ![Project Tutorial - SCRUM Board - Tasks - Hover](/assets/moving/sc.2021-05-08.18-39-54.png)
 
+When you click on the button, an input field appears. Simply type the name of the task in the input text box, 
+and hit `Enter` or click on the `Add Task` button.
+
 ![Project Tutorial - SCRUM Board - Tasks - Add](/assets/moving/sc.2021-05-08.18-40-09.png)
 
-Reorder the tasks based on priority order. We will start working with tasks at the top, and since we want to talk to 
+Reorder the tasks based on priority order. We will start working with tasks at the top, and since we want to talk to
 Suzan first, we will move it at the top.
 
 ![Project Tutorial - SCRUM Board - Tasks - Reorder](/assets/moving/sc.2021-05-08.18-40-24.png)
+
+### Add Labels - Card
+To add clarity to your boards, add labels to the cards. With the use of labels, you get an extra layer of information 
+at a glance.
+
+From the dropdown menu of the card locate and click on the `Labels` action.
+
+![Project Tutorial - SCRUM Board - Expanded - Select Labels](/assets/moving/sc.2021-05-08.18-35-20.png)
+
+The labels menu is visible. Select the labels of the card and close the menu with a click anywhere outside the menu 
+or the `x` button at the right upper corner of the menu.
+
+![Project Tutorial - SCRUM Board - Expanded - Show Labels](/assets/moving/sc.2021-05-08.18-35-30.png)
+
+The menu stays open until you chose to close it.
+
+![Project Tutorial - SCRUM Board - Expanded - Show Labels - Select](/assets/moving/sc.2021-05-08.18-35-36.png)
+
+The labels are visible in the expanded card, to give clarity to your boards.
+
+![Project Tutorial - SCRUM Board - Expanded - Label Added](/assets/moving/sc.2021-05-08.18-35-44.png)
+
+The labels are visible in the collapsed card, to give clarity to your boards.
+
+![Project Tutorial - SCRUM Board - Collapsed](/assets/moving/sc.2021-05-08.18-35-56.png)
+
+### Edit Card Description
+We can edit the card description with more details when expanded. Locate the `Pencil` button when hover over 
+the description. The markdown editor will be visible. Click on the `Save Changes` button or press `Ctrl+Enter` to 
+save the changes.
+
+![Project Tutorial - SCRUM Board - Expanded - Next - Edit description](/assets/moving/sc.2021-05-08.18-37-15.png)
+
+The description is visible in when the card is expanded.
+
+![Project Tutorial - SCRUM Board - Expanded - Next - Saved description](/assets/moving/sc.2021-05-08.18-37-26.png)
 
 ### View the Burndown Chart
 Let's check the burndown chart now that we added a few tasks to see how it looks like now. Locate the `Burndown Chart`
