@@ -10,8 +10,6 @@ nav_order: 3
 1. TOC
 {:toc}
 
----
-
 # A Sample Project
 {: .no_toc .fs-9 }
 
@@ -27,6 +25,9 @@ so these will be our phases, or sprints.
 
 We are now ready to start entering all this information into Flying Donut:
 
+---
+
+## Create Project
 Log in to your account to create a project. Locate the `+` button in the upper right corner, in the projects,
 or dashboard page:
 
@@ -55,8 +56,9 @@ left-hand side menu. This part of the menu is enabled when you are in a project 
 
 ![Project Tutorial - Project Overview](/assets/moving/sc.2021-05-08.13-48-12.png)
 
-## Defining the Card Categories, or Backlog Buckets
+---
 
+## Defining the Card Categories, or Backlog Buckets
 Select Backlog from the left-side menu. When a project is created, a Default backlog bucket is created:
 
 Select the Default bucket and click on the `edit` button located on the top right-hand side.
@@ -79,8 +81,9 @@ Similarly create the Kid's Stuff bucket:
 
 ![Project Tutorial - Backlog - buckets](/assets/moving/sc.2021-05-08.13-56-45.png)
 
-## Adding Cards to Backlog
+---
 
+## Adding Cards to Backlog
 Each backlog bucket has an `+` button at the toolbar. 
 
 ![Project Tutorial - Backlog - Add card](/assets/moving/sc.2021-05-08.18-05-03.png)
@@ -114,8 +117,9 @@ Let's add tasks on another card that we already know what we will do. We will es
 
 ![Project Tutorial - Sprints - Planning - Card Details](/assets/moving/sc.2021-05-08.18-30-58.png)
 
-## Moving the Cards around in the Backlog
+---
 
+## Moving the Cards around in the Backlog
 The cards can be moved around in backlog via drag 'n drop. The order from top to bottom is used to order the priority
 of each card. There are times that you need to move a card from one bucket to another one, though. 
 
@@ -138,6 +142,8 @@ extra thoughts in our project.
 Click on the `Move Cards to Buckets` button again to return to normal view to continue working as usual.
 
 ![Project Tutorial - Backlog - Normal view](/assets/moving/sc.2021-05-08.18-16-36.png)
+
+---
 
 ## Sprints (Scrum based projects)
 As described in the [Scrum Guide](https://www.scrumguides.org){:target="_blank"}, 
@@ -181,7 +187,6 @@ and if the sprint has started, is completed or not:
 1. The sprint will start in number of days.
 
 ### Adding Cards to the Sprint
-
 Now that we have a list of cards (work items), we can add them to our sprints. What needs to be done 
 before the move? What should we remember to do during the moving day? What can wait until after the move?
 
@@ -231,7 +236,6 @@ Let's bring the last card to the sprint.
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-18.png)
 
 ### Starting a Sprint
-
 When you are done adding the cards to the sprint, you `Start` it (when the time comes). Locate the `Start` button 
 at the toolbar of the sprint.
 
@@ -255,12 +259,15 @@ to a sprint (pending or active) or a backlog bucket. Once selected, just click o
 
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-49.png)
 
+---
 
 ## Sprints and Boards
 To navigate to the sprint board click on the `name` of the sprint, or find the `Board` button located at the toolbar
 of each sprint and click it.
 
 ![Project Tutorial - Sprints - Name Hover](/assets/moving/sc.2021-05-08.18-32-41.png)
+
+---
 
 ## SCRUM Sprint Board
 There are cases where you don't want or need a modern kanban board to run sprints in. In simple traditional scrum,
@@ -283,7 +290,6 @@ down into smaller tasks later.
 ![Project Tutorial - SCRUM Board - Card Created](/assets/moving/sc.2021-05-08.18-33-16.png)
 
 ### Prioritize
-
 The cards can be moved around in board via drag ‘n drop. The order from top to bottom is used to order the priority 
 of each card. 
 
@@ -373,8 +379,9 @@ The burndown chart view is visible now.
 
 ![Project Tutorial - SCRUM Board - Tasks - Reorder](/assets/moving/sc.2021-05-08.18-40-52.png)
 
-## SCRUMBAN Sprint Board
+---
 
+## SCRUMBAN Sprint Board
 Let say that we changed our mind, and we want to use `SCUMBAN` instead. We need to chang the project type. 
 
 ### Change Project Board Type
@@ -424,7 +431,6 @@ them to our board.
 ![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-46.png)
 
 ### Scrumban Board
-
 From the sprint list navigate to the sprint board. Now the board has the columns as modified.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-06.png)
@@ -446,9 +452,9 @@ Let's filter the board to show only the cards that I'm working on.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-05-01.png)
 
+---
 
 ## KANBAN Board
-
 Let say that we changed our mind, and we want to use `KANBAN` instead. We need to chang the project type.
 
 ### Change Project Board Type
@@ -524,7 +530,6 @@ the project.
 
 
 ### Kanban Board
-
 From the left-hand side menu, navigate to the project board. The board has the columns as modified.
 
 ![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-29-30.png)
@@ -542,6 +547,8 @@ Drag 'n drop the cards from the selected backlog bucket into the board.
 
 ![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-29.png)
 
+---
+
 ## Card is Blocked (Impediments)
 Anything that stops or slows down the delivery, or acts as a hurdle can be termed as a blocker or impediment.
 Blockers can manifest themselves at any time, and pretty much anything gets blocked sooner or later, especially 
@@ -556,8 +563,9 @@ The card will be marked as blocked, with a red border around the card, and a spe
 
 ![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-47.png)
 
-## Labels
+---
 
+## Labels
 One of the simplest ways to add structure, and clarity to your boards, is by adding labels to the cards. With the use 
 of labels, you get an extra layer of information at a glance.
 
@@ -591,7 +599,6 @@ as we would with any normal label.
 --- 
 
 ## The Dashboard
-
 After you start working on a project, and assign tasks to yourself to work on, the project Dashboard
 gives you a quick glimpse into your activities, and your work in progress. The dashboard shows the active sprints, 
 and the kanban boards
