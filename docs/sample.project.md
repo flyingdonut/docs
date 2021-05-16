@@ -48,8 +48,8 @@ Locate the project from the projects list, and click on the project name to navi
 
 ![Project Tutorial - Projects List](/assets/moving/sc.2021-05-08.23-25-14.png)
 
-At this point there is very limited information in the project page, but you see that you have more options in left-hand
-side the menu. This part of the menu is enabled when you are in a project context:
+At this point there is very limited information in the project page, but you see that you have more options in the 
+left-hand side menu. This part of the menu is enabled when you are in a project context:
 
 ![Project Tutorial - Project Overview](/assets/moving/sc.2021-05-08.13-48-12.png)
 
@@ -107,6 +107,10 @@ Add more details for each item, in the item's details. By clicking on the name o
 modal will appear, where you can add description, attachments, tasks, comments, and topics.
 
 ![Project Tutorial - Backlog - Add card input](/assets/moving/sc.2021-05-08.18-07-04.png)
+
+Let's add tasks on another card that we already know what we will do. We will estimate the tasks as well.
+
+![Project Tutorial - Sprints - Planning - Card Details](/assets/moving/sc.2021-05-08.18-30-58.png)
 
 ## Moving the Cards around in the Backlog
 
@@ -200,7 +204,7 @@ When you add tasks and estimate them in the cards, the burndown chart will also 
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-34.png)
 
-Let's add the rest of the cards we need in this sprint.
+Let's add the rest of the cards that we need in this sprint.
 
 ![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-24-16.png)
 
@@ -249,9 +253,8 @@ to a sprint (pending or active) or a backlog bucket. Once selected, just click o
 
 ![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-49.png)
 
-![Project Tutorial - Sprints - Planning - Card Details](/assets/moving/sc.2021-05-08.18-30-58.png)
 
-## Sprint Board
+## Sprints and Boards
 To navigate to the sprint board click on the `name` of the sprint, or locate the `Board` button located at the toolbar
 of each sprint and click it.
 
@@ -386,84 +389,158 @@ Let's filter the board to show only the cards that I'm working on.
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-05-01.png)
 
 
+## KANBAN Board
+
+Let say that we changed our mind, and we want to use `KANBAN` instead. We need to chang the project type.
+
+### Change Project Board Type
+Locate the project `Settings` button at the left-side menu and click on it. Then select the `Admin` tab.
+The `Admin` tab is only available to project administrators or the project owner.
+
+Locate the change board type option and click on the `Change` button.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-01-35.png)
+
+We see what is selected, and the available options we can choose of.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-24-59.png)
+
+Let's select the `KANBAN` option to change the project board type.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-25-21.png)
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-25-50.png)
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-25-55.png)
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-26-50.png)
+
+
+Once the project type is changed, we have the option to edit and modify the columns of our board.
+Locate the `Columns` section, just bellow the `Board Type`, and click on the `Edit` button.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-03.png)
+
+The edit board columns modal will be visible to do all necessary changes. As we see, we have by default 3 columns:
+- To Do
+- Doing
+- Done
+
+Each column has the following properties:
+- **Name**: The name of the column.
+- **WIP**: Limiting Work In Progress in a kanban board encourages higher quality and more excellent
+  performance. The act of restricting WIP helps you optimize work capacity by allowing you to pull new work only
+  if capacity is available.
+- **Type**: The type of the column. A column can be a `to do`, `doing`, or `done` column. Cards in a column will get
+  the status of the column, that is taken into account in the available counters and reports.
+
+Since we are running a kanban board, we will create the workflow of our project in our board instead of 
+using sprints. Let's rename the `To Do` column into `Before the Move`.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-27-18.png)
+
+Create a column `Move Days`.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-27-37.png)
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-27-59.png)
+
+Move it after the `Before the Move` column. We will keep it before the `Doing` column.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-16.png)
+
+Change the `Type` to `To Do`. This way we will know that every card in this column is in a *to do* state.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-23.png)
+
+Create a column `After the Move`, and change the `Type` to `To Do`. 
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-42.png)
+
+Move it after the `Move Days` column. We will keep it before the `Doing` column.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-48.png)
+
+Now we have a board with all the phases in place to start working. Save the changes to apply the new board layout to 
+the project.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-29-17.png)
+
+
+### Kanban Board
+
+From the left-hand side menu, navigate to the project board. The board has the columns as modified.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-29-30.png)
+
+Let's bring the cards we want from the backlog in our board. Click on the `plan` button located at the right-hand side
+of the top menu.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-00.png)
+
+In the planning view, you see two distinct areas:
+- Backlog.
+- Board with all `To Do` columns available.
+
+Drag 'n drop the cards from the selected backlog bucket into the board.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-29.png)
+
+## Card is Blocked (Impediments)
+Anything that stops or slows down the delivery, or acts as a hurdle can be termed as a blocker or impediment.
+Blockers can manifest themselves at any time, and pretty much anything gets blocked sooner or later, especially 
+in the software development life cycle.
+
+In Flying Donut we have the option to mark a card as blocked. It’s visible in the board and therefore transparent for 
+everyone involved. From the dropdown menu of the card locate and click on the `Block` action.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-42.png)
+
+The card will be marked as blocked, with a red border around the card, and a special 'Blocked' label.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-47.png)
+
+## Labels
+
+One of the simplest ways to add structure, and clarity to your boards, is by adding labels to the cards. With the use 
+of labels, you get an extra layer of information at a glance.
+
+Locate the project `Settings` button at the left-side menu and click on it. Then select the `Labels` tab.
+The `Labels` tab is available to all project members.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.13-51-31.png)
+
+### Create Label
+Click on the `Create Label` button. A label form will be available to add the new label. Type in the `name` of the label
+and select the color of the label. Click on the `Save Label` button to apply the changes.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.13-51-49.png)
+
+Let's create the labels we need for our project.
+
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.13-53-39.png)
+
+### Backlog Buckets as Labels
+In case we want to know from which backlog bucket card was added in our board (scrum or kanban), then we have the option 
+to enable it from the labels section. Locate the `Backlog Buckets` section at the top of the labels and click on 
+the toggle button `Disbled` to enable it.
+
+![Project Tutorial - Labels Disabled button](/assets/moving/sc.2021-05-08.13-53-55.png)
+
+When enabled we see the backlog buckets in the labels list. We have the option to edit the color of these labels just 
+as we would with any normal label. 
+
+![Project Tutorial - Labels Enabled](/assets/moving/sc.2021-05-08.13-56-14.png)
+
 --- 
-# ** Not Valid? **
 
-In the **Task Board**, you see the list of the tasks of the cards. Each task is either in the `To Do`, `Doing`,
-or `Done` state.
+## The Dashboard
 
+After you start working on a project, and assign tasks to yourself to work on, the project Dashboard
+gives you a quick glimpse into your activities, and your work in progress. The dashboard shows the active sprints, 
+and the kanban boards
 
-In general, you use the Task Board to mark things Doing, and, later, Done, so you can track your progress.
-The Review phase is tailored more towards larger teams working together, and may not apply on smaller 
-personal projects.
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.23-24-44.png)
 
-### Sprint Action Buttons
+Click on the `Show All` button that is visible, when you have more cards assigned to you. All cards you have some 
+work assigned to do, will be visible to you.
 
-The second row of action buttons, allows you to enter project Details, for example a description, 
-and a start and end date, if not already specified. It also shows a burn down chart, for this sprint. 
-There are also buttons to Start and Finish the sprint.
-
-### Assigning Items During Planning Stage
-
-You are presented with a view of the items in the backlog, grouped by backlog categories, or buckets. 
-You can click on each of the backlog bucket names to see the list of items in that category. 
-Drag and drop work items, from the backlog bucket, into the sprint space.
-
-To drag an item, grab it from the drag-handle and drop it into the sprint space, on the left, 
-below the Standalone tasks placeholder:
-
-Drag each item that should be completed before the move into this sprint:
-
-Note that you can select items from any of the different backlog buckets to drag into this sprint, 
-   as items relating to the New House may also need to be completed before the move.
-
-You can also create new items right in this screen. Specify the item's title in the new item's input area, 
-designated with .
-
-
-Assign all items from the backlog into one of the three project sprints. When you are done assigning the 
-items to each sprint, you can move them around, in order of priority. Now you are ready to start working 
-on your items, and track your progress.
-
-### The Task Board
-
-When you are done assigning work items to the sprint, you are ready to Start the "Before the move" sprint. 
-The sprint now enters the Execution phase:
-
-To add subtasks for an item, simply start typing the task name in the new task input field.
-
-You can add detailed notes to each task, by selecting Description from the task's Actions dropdown:
-
-When you work on each subtask, mark it as being Doing. You can either move it to the Doing state from 
-the Actions dropdown, or by dragging and dropping it into the Doing column:
-
-
-Similarly, when a task is completed, move it to the Done state:
-
-Items and tasks can be in different progress states. The item's state is indicated by the icon used:
-
-- This task or item is waiting to be started
-- This task or item is in progress
-- This task or item is completed.
-
-The item's state is determined by the state of its subtasks. When all subtasks are Done, the item is 
-Done too. When some tasks are Doing, the item is Doing.
-
-
-When you check things off your checklist by marking them as Done, the board thins out, as only the 
-first item is shown on the Done list, showing you that fewer things are left to be worked on!
-
-## Additional Notes
-
-### The Flying Donut Dashboard
-
-After you start working on a project, and assign tasks to yourself to work on, the project Dashboard 
-gives you a quick glimpse into your activities, and your work in progress.
-
-### Activity Stream
-The project's Activity Stream shows a listing of what happened in a project. You can use the project's 
-activity stream to see what happened in a particular project, during a day. It appears at the bottom 
-of the project's page, below the burndown chart:
-
-It can be a very helpful view in situations when many people are working on the same project.
-
+![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.23-24-48.png)
