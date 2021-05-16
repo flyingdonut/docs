@@ -9,7 +9,9 @@ nav_order: 3
 
 1. TOC
 {:toc}
-   
+
+---
+
 # A Sample Project
 {: .no_toc .fs-9 }
 
