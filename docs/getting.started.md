@@ -13,9 +13,7 @@ nav_order: 2
 # Getting Started With Your Project
 {: .no_toc .fs-9 }
 
-You already have a project in mind. Before getting started with the framework,
-it would be helpful if you decided on:
-{: .fs-6 .fw-300 }
+You already have a project in mind. Before getting started, it would be helpful if you decided on:
 
 1. The project's phases.
 1. A categorization for the jobs you need to do.
@@ -32,6 +30,6 @@ For some projects, everything could fall under a single My-ToDo-List.
 For other projects, more categories might be useful. The categories are there to help you, 
 they are not imposed by the system.
 
-## Creating the first project
+## Creating your first project
 
 - See the creation of [A Sample Project]({{ site.baseurl }}{% link docs/sample.project.md %})
