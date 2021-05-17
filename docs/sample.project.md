@@ -200,40 +200,40 @@ In the sprint planning view, you see two distinct areas:
 
 Drag 'n drop the cards from the selected backlog bucket into the sprint. 
   
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-23.png)
+![Project Tutorial - Sprints - Planing Drag](/assets/moving/sc.2021-05-08.18-23-23.png)
 
 Once you drop the card, the view will be updated with the counters.
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-29.png)
+![Project Tutorial - Sprints - Planing Drop](/assets/moving/sc.2021-05-08.18-23-29.png)
 
 Of course the burndown chart will also be updated after a few seconds, when you add cards with estimated tasks. 
 When you add tasks and estimate them in the cards, the burndown chart will also be updated in real-time.
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-23-34.png)
+![Project Tutorial - Sprints - Plan Drop Burndown Update update](/assets/moving/sc.2021-05-08.18-23-34.png)
 
 Let's add the rest of the cards that we need in this sprint.
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-24-16.png)
+![Project Tutorial - Sprints - Planing Drag rest](/assets/moving/sc.2021-05-08.18-24-16.png)
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-25-21.png)
+![Project Tutorial - Sprints - Planing Drag rest](/assets/moving/sc.2021-05-08.18-25-21.png)
 
 We have cards on multiple backlog buckets, therefore to add cards from a different backlog bucket we need to click 
 on the `Select Bucket` button, to pick the bucket we want. Let's select the "New House" bucket to pick the cards that
 we will work on in this sprint. 
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-25-53.png)
+![Project Tutorial - Sprints - Plan Select Bucket](/assets/moving/sc.2021-05-08.18-25-53.png)
 
 Let's add the cards we need in this sprint.
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-26-05.png)
+![Project Tutorial - Sprints - Plan Drag card](/assets/moving/sc.2021-05-08.18-26-05.png)
 
 Let's see if we need to bring something else form the "Kids Stuff" bucket.
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-03.png)
+![Project Tutorial - Sprints - Plan select Bucket](/assets/moving/sc.2021-05-08.18-27-03.png)
 
 Let's bring the last card to the sprint.
 
-![Project Tutorial - Sprints - Plan](/assets/moving/sc.2021-05-08.18-27-18.png)
+![Project Tutorial - Sprints - Plan Drag last card](/assets/moving/sc.2021-05-08.18-27-18.png)
 
 ### Starting a Sprint
 When you are done adding the cards to the sprint, you `Start` it (when the time comes). Locate the `Start` button 
@@ -255,9 +255,9 @@ When the sprint has been completed, you need to `Complete` it (when the time com
 at the toolbar of the sprint. You will be presented with the start sprint modal. Uncompleted cards will be moved
 to a sprint (pending or active) or a backlog bucket. Once selected, just click on the `Comlete Sprint` button. 
 
-![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-32.png)
+![Project Tutorial - Complete Sprint - Backlog select](/assets/moving/sc.2021-05-08.18-58-32.png)
 
-![Project Tutorial - Sprints](/assets/moving/sc.2021-05-08.18-58-49.png)
+![Project Tutorial - Complete Sprint - Sprint select](/assets/moving/sc.2021-05-08.18-58-49.png)
 
 ---
 
@@ -394,16 +394,16 @@ Locate the change board type option and click on the `Change` button.
 
 We see what is selected, and the available options we can choose of.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-01-41.png)
+![Project Tutorial - Project Settings - Board type Expanded](/assets/moving/sc.2021-05-08.19-01-41.png)
 
 Let's select the `SCRUMBAN` option to change the project board type.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-01-47.png)
+![Project Tutorial - Project Settings -  Board type Scrumban selected](/assets/moving/sc.2021-05-08.19-01-47.png)
 
 Once the project type is changed, we have the option to edit and modify the columns of our board. 
 Locate the `Columns` section, just bellow the `Board Type`, and click on the `Edit` button.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-03.png)
+![Project Tutorial - Project Settings - Board type Scrumban](/assets/moving/sc.2021-05-08.19-02-03.png)
 
 The edit board columns modal will be visible to do all necessary changes. As we see, we have by default 4 columns:
 - To Do
@@ -419,45 +419,45 @@ Each column has the following properties:
 - **Type**: The type of the column. A column can be a `to do`, `doing`, or `done` column. Cards in a column will get
   the status of the column, that is taken into account in the available counters and reports. 
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-09.png)
+![Project Tutorial - Project Settings - Board columns](/assets/moving/sc.2021-05-08.19-02-09.png)
 
 In our project we don't have a `Testing` column so let's delete it.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-20.png)
+![Project Tutorial - Project Settings - Board columns - Delete](/assets/moving/sc.2021-05-08.19-02-20.png)
 
 Until we hit the `Save Changes` button, the changes will not be applied to the project. Let's save the changes to apply
 them to our board.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-46.png)
+![Project Tutorial - Project Settings - Board columns - Deleted](/assets/moving/sc.2021-05-08.19-02-46.png)
 
 ### Scrumban Board
 From the sprint list navigate to the sprint board. Now the board has the columns as modified.
 
 ![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-06.png)
 
-We start working on the "Moving Budget" card, so let's add the card to the doing column. Now we have 2 cards 
+We start working on the "Moving Budget" card, so let's add the card to the doing column. We will have 2 cards 
 in the `Doing` column.
 
-![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-06.png)
+![Project Tutorial - Project Settings - Scrumban Board - Drag card](/assets/moving/sc.2021-05-08.19-03-30.png)
 
 Let's filter the board to show only the cards that I work on. Click on the `Show only my cards` toggle button.
 
-![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-51.png)
+![Project Tutorial - Project Settings - Scrumban Board - Filter button](/assets/moving/sc.2021-05-08.19-03-51.png)
 
 Only the cards assigned directly to me, or the cards having tasks assigned to me are visible. The rest of the cards
 are hidden. Click on the `Show only my cards` toggle button again to disable the filtering.
 
-![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-03-56.png)
+![Project Tutorial - Project Settings - Scrumban Board - Filter button active](/assets/moving/sc.2021-05-08.19-03-56.png)
 
 ### Assign Cards to users
 From the dropdown menu of the card locate and click on the `Assign Me` action, to assign the card to yourself.
 Alternatively you may select the `Users` action to assign other project members.
 
-![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-04-54.png)
+![Project Tutorial - Project Settings - Scrumban Board - Card Dropdown - Assign active](/assets/moving/sc.2021-05-08.19-04-54.png)
 
 When assigned, the user avatar is added to the card.
 
-![Project Tutorial - Project Settings - Scrumban Board](/assets/moving/sc.2021-05-08.19-05-01.png)
+![Project Tutorial - Project Settings - Scrumban Board - Card user assigned](/assets/moving/sc.2021-05-08.19-05-01.png)
 
 ---
 
@@ -474,21 +474,32 @@ Locate the change board type option and click on the `Change` button.
 
 We see what is selected, and the available options we can choose of.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-24-59.png)
+![Project Tutorial - Project Settings - Board type - Expanded](/assets/moving/sc.2021-05-08.19-24-59.png)
 
-Let's select the `KANBAN` option to change the project board type.
+Let's select the `KANBAN` option to change the project board type. In our project we get a message that we have 
+multiple active or pending sprints. When converting to kanban all completed sprints will be marked as archived sprints,
+and the active sprint will be used as the active kanban board. 
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-25-21.png)
+![Project Tutorial - Project Settings - Board type - Kanban error message](/assets/moving/sc.2021-05-08.19-25-21.png)
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-25-50.png)
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-25-55.png)
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-26-50.png)
+Let's delete the planned sprints that we will not use in our project. Navigate to the project sprints. 
+Locate the `Delete` button at in the sprint toolbar and click it. 
+The delete button is **available only for empty sprints**.
 
+![Project Tutorial - Project Settings - Sprints - Delete active](/assets/moving/sc.2021-05-08.19-25-50.png)
+
+Approve the deletion of the sprint. 
+
+![Project Tutorial - Project Settings - Sprints - Delete Modal](/assets/moving/sc.2021-05-08.19-25-55.png)
+
+Navigate back to the admin section of the project settings to change the project board type.
+
+![Project Tutorial - Project Settings - Board type - Kanban Selected](/assets/moving/sc.2021-05-08.19-26-50.png)
 
 Once the project type is changed, we have the option to edit and modify the columns of our board.
 Locate the `Columns` section, just bellow the `Board Type`, and click on the `Edit` button.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-02-03.png)
+![Project Tutorial - Project Settings - Board Columns](/assets/moving/sc.2021-05-08.19-02-03.png)
 
 The edit board columns modal will be visible to do all necessary changes. As we see, we have by default 3 columns:
 - To Do
@@ -506,45 +517,45 @@ Each column has the following properties:
 Since we are running a kanban board, we will create the workflow of our project in our board instead of 
 using sprints. Let's rename the `To Do` column into `Before the Move`.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-27-18.png)
+![Project Tutorial - Project Settings - Board Columns - Delete](/assets/moving/sc.2021-05-08.19-27-18.png)
 
 Create a column `Move Days`.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-27-37.png)
+![Project Tutorial - Project Settings - Board Columns - Add](/assets/moving/sc.2021-05-08.19-27-37.png)
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-27-59.png)
+![Project Tutorial - Project Settings - Board Columns - Edit](/assets/moving/sc.2021-05-08.19-27-59.png)
 
 Move it after the `Before the Move` column. We will keep it before the `Doing` column.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-16.png)
+![Project Tutorial - Project Settings - Board Columns - Drag](/assets/moving/sc.2021-05-08.19-28-16.png)
 
 Change the `Type` to `To Do`. This way we will know that every card in this column is in a *to do* state.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-23.png)
+![Project Tutorial - Project Settings - Board Columns - Change Type](/assets/moving/sc.2021-05-08.19-28-23.png)
 
 Create a column `After the Move`, and change the `Type` to `To Do`. 
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-42.png)
+![Project Tutorial - Project Settings - Board Columns - Add](/assets/moving/sc.2021-05-08.19-28-42.png)
 
 Move it after the `Move Days` column. We will keep it before the `Doing` column.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-28-48.png)
+![Project Tutorial - Project Settings - Board Columns - Drag](/assets/moving/sc.2021-05-08.19-28-48.png)
 
 Now we have a board with all the phases in place to start working. Save the changes to apply the new board layout to 
 the project.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-29-17.png)
+![Project Tutorial - Project Settings - Board Columns - Before Save](/assets/moving/sc.2021-05-08.19-29-17.png)
 
 
 ### Kanban Board
 From the left-hand side menu, navigate to the project board. The board has the columns as modified.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-29-30.png)
+![Project Tutorial - Kanban Board](/assets/moving/sc.2021-05-08.19-29-30.png)
 
 Let's bring the cards we want from the backlog in our board. Click on the `plan` button located at the right-hand side
 of the top menu.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-00.png)
+![Project Tutorial - Kanban Board - Plan Button](/assets/moving/sc.2021-05-08.19-30-00.png)
 
 In the planning view, you see two distinct areas:
 - Backlog.
@@ -552,7 +563,7 @@ In the planning view, you see two distinct areas:
 
 Drag 'n drop the cards from the selected backlog bucket into the board.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-29.png)
+![Project Tutorial - Kanban Board - Plan](/assets/moving/sc.2021-05-08.19-30-29.png)
 
 ---
 
@@ -564,11 +575,11 @@ in the software development life cycle.
 In Flying Donut we have the option to mark a card as blocked. It’s visible in the board and therefore transparent for 
 everyone involved. From the dropdown menu of the card locate and click on the `Block` action.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-42.png)
+![Project Tutorial - Kanban Board - Card menu - block slected](/assets/moving/sc.2021-05-08.19-30-42.png)
 
 The card will be marked as blocked, with a red border around the card, and a special 'Blocked' label.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.19-30-47.png)
+![Project Tutorial - Kanban Board - Card Blocked](/assets/moving/sc.2021-05-08.19-30-47.png)
 
 ---
 
@@ -579,17 +590,17 @@ of labels, you get an extra layer of information at a glance.
 Locate the project `Settings` button at the left-side menu and click on it. Then select the `Labels` tab.
 The `Labels` tab is available to all project members.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.13-51-31.png)
+![Project Tutorial - Project Settings - Empty Labels](/assets/moving/sc.2021-05-08.13-51-31.png)
 
 ### Create Label
 Click on the `Create Label` button. A label form will be available to add the new label. Type in the `name` of the label
 and select the color of the label. Click on the `Save Label` button to apply the changes.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.13-51-49.png)
+![Project Tutorial - Project Settings - Create Label](/assets/moving/sc.2021-05-08.13-51-49.png)
 
 Let's create the labels we need for our project.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.13-53-39.png)
+![Project Tutorial - Project Settings - Lables](/assets/moving/sc.2021-05-08.13-53-39.png)
 
 ### Backlog Buckets as Labels
 In case we want to know from which backlog bucket card was added in our board (scrum or kanban), then we have the option 
@@ -610,9 +621,9 @@ After you start working on a project, and assign tasks to yourself to work on, t
 gives you a quick glimpse into your activities, and your work in progress. The dashboard shows the active sprints, 
 and the kanban boards
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.23-24-44.png)
+![Project Tutorial - Dashboard](/assets/moving/sc.2021-05-08.23-24-44.png)
 
 Click on the `Show All` button that is visible, when you have more cards assigned to you. All cards you have some 
 work assigned to do, will be visible to you.
 
-![Project Tutorial - Project Settings - Board type](/assets/moving/sc.2021-05-08.23-24-48.png)
+![Project Tutorial - Dashboard - Assignments](/assets/moving/sc.2021-05-08.23-24-48.png)
